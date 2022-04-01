@@ -12,7 +12,7 @@ const config = require("./config/config.json")
 const client = new Client({
   messageCacheLifetime: 60,
   fetchAllMembers: false,
-  messageCacheMaxSize: 10,
+  messageCacheMaxSize: 10, 
   restTimeOffset: 0,
   restWsBridgetimeout: 100,
   shards: "auto",
